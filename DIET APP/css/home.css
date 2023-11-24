@@ -1,0 +1,48 @@
+/* 
+applying styles
+ */
+  header{
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-style: double;
+    border-color: red;
+    
+  }
+  nav{
+    background-color: aquamarine;
+  height: 250px;
+  width: 350px;
+  float: left;
+  }
+ nav ul{
+    list-style-type: none;
+    }
+    nav ul li {
+        margin: 30px 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+    }
+    article{
+      background-color: aqua;
+        float: left;
+        height: 250px;
+        width: 70%;
+        padding-left: 40px;
+        
+    }
+ section::after{
+    display: table;
+    content:"";
+    clear: both;
+    
+ }
+    footer{
+        background-color: blanchedalmond;
+        text-align: center;
+        padding: 40px;
+        font-size: 20px;
+        
+     }
